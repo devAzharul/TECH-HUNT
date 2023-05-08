@@ -21,16 +21,16 @@ function Navbar() {
         <div>
           <ul className="flex gap-x-2 lg:gap-x-6 items-center justify-end">
             <li>
-              <Link href={`/`}>Nav - 1</Link>
+              <Link href={`/`}>Home</Link>
             </li>
             <li>
-              <Link href={`/`}>Nav - 2</Link>
+              <Link href={`/about`}>About US</Link>
             </li>
             <li>
-              <Link href={`/`}>Nav - 3</Link>
+              <Link href={`/contact`}>Contact US</Link>
             </li>
             <li>
-              <Link href={`/`}>Nav - 4</Link>
+              <Link href={`/service`}>Services</Link>
             </li>
             <li>
               <button className="bg-[#ffc600] hover:bg-[#099DFD] duration-200 text-black hover:text-white px-3 py-1.5 rounded-3xl font-semibold">
