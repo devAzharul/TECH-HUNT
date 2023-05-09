@@ -33,6 +33,9 @@ function Navbar() {
               <Link href={`/service`}>Services</Link>
             </li>
             <li>
+              <Link href={`/blog`}>Blog</Link>
+            </li>
+            <li>
               <button className="bg-[#ffc600] hover:bg-[#099DFD] duration-200 text-black hover:text-white px-3 py-1.5 rounded-3xl font-semibold">
                 Get Started
               </button>
