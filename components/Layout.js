@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Navbar from "./Navigation/Navbar";
+import Footer from "./Footer/Footer";
 
 const Layout = ({ title, children }) => {
   return (
@@ -15,7 +16,7 @@ const Layout = ({ title, children }) => {
       <div className="min-h-screen flex flex-col justify-between">
         <Navbar />
         <main className="m-auto mt-0 w-full">{children}</main>
-        <footer>footer</footer>
+        <Footer />
       </div>
     </>
   );
