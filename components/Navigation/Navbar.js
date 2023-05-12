@@ -9,7 +9,7 @@ const Navbar = () => {
       <li><Link href={'/team'}>Team</Link></li>
   </>
   return (
-    <div className="navbar bg-black shadow-lg py-4">
+    <div className="navbar bg-base-400">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
