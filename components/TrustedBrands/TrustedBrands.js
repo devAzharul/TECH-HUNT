@@ -48,15 +48,6 @@ const TrustedBrands = () => {
                 <div></div>
                 <div> <Slider {...settings}>
                     <div>
-                        <Image alt='logo' src={logo} />
-                    </div>
-                    <div>
-                        <Image alt='logo' src={logo1} />
-                    </div>
-                    <div>
-                        <Image alt='logo' src={logo2} />
-                    </div>
-                    <div>
                         <Image alt='logo' src={logo3} />
                     </div>
                     <div>
@@ -64,6 +55,15 @@ const TrustedBrands = () => {
                     </div>
                     <div>
                         <Image alt='logo' src={logo5} />
+                    </div>
+                    <div>
+                        <Image alt='logo' src={logo} />
+                    </div>
+                    <div>
+                        <Image alt='logo' src={logo1} />
+                    </div>
+                    <div>
+                        <Image alt='logo' src={logo2} />
                     </div>
                 </Slider></div>
             </div>
