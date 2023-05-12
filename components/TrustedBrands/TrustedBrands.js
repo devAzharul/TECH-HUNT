@@ -22,7 +22,7 @@ const TrustedBrands = () => {
 
     return (
         <div className='flex justify-evenly'>
-            <div className='w-2/5'>
+            <div className='mt-10 w-6/12'>
                 <div className='mb-10'>
                     <Slider {...settings}>
                         <div>
@@ -68,9 +68,13 @@ const TrustedBrands = () => {
                 </Slider></div>
             </div>
             <div>
-                <div className='mb-8'>
-                    <h2 className='text-white text-5xl font-bold'>
-                        Trusted By <span className='text-cyan-300'>1,790+</span><br /> Worlds Leading<br /><span className='text-cyan-300'> IT Companies.</span>
+                <div className='mb-8 text-white text-5xl font-bold'>
+                    <h2 className='mb-5'>
+                        Trusted By <span className='text-cyan-300'>1,790+</span>
+                    </h2>
+                    <h2 className='mb-5'> Worlds Leading</h2>
+                    <h2>
+                        <span className='text-cyan-300'> IT Companies.</span>
                     </h2>
                 </div>
                 <div>
