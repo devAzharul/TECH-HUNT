@@ -1,50 +1,36 @@
-import React, { useState } from "react";
 import Link from "next/link";
-
-function Navbar() {
-  const [isNavOpen, setIsNavOpen] = useState(false);
-
-  const toggleNavDrawer = () => {
-    setIsNavOpen((prevState) => !prevState);
-  };
-
+const Navbar = () => {
+  const menuList = <>
+      <li><Link href={'/'}>Home</Link></li>
+      <li><Link href={'/service'}>Service</Link></li>
+      <li><Link href={'/about'}>About Us</Link></li>
+      <li><Link href={'/contact'}>Contact Us</Link></li>
+      <li><Link href={'/blog'}>Blog</Link></li>
+      <li><Link href={'/team'}>Team</Link></li>
+  </>
   return (
-    <header className="h-[70px] flex justify-center sticky top-0 z-30 w-full">
-      <nav className="basis-11/12 md:basis-10/12 3xl:basis-9/12 flex justify-between items-center h-full mx-auto">
-        <div>
-          <h1 className="font-extrabold text-2xl lg:text-4xl">
-            <Link href={`/`}>
-              TECH HUNT
-            </Link>
-          </h1>
-        </div>
-        <div>
-          <ul className="flex gap-x-2 lg:gap-x-6 items-center justify-end">
-            <li>
-              <Link href={`/`}>Home</Link>
-            </li>
-            <li>
-              <Link href={`/about`}>About US</Link>
-            </li>
-            <li>
-              <Link href={`/contact`}>Contact US</Link>
-            </li>
-            <li>
-              <Link href={`/service`}>Services</Link>
-            </li>
-            <li>
-              <Link href={`/blog`}>Blog</Link>
-            </li>
-            <li>
-              <button className="bg-[#ffc600] hover:bg-[#099DFD] duration-200 text-black hover:text-white px-3 py-1.5 rounded-3xl font-semibold">
-                Get Started
-              </button>
-            </li>
+    <div className="navbar bg-black shadow-lg py-4">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+          </label>
+          <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+           {menuList}
           </ul>
         </div>
-      </nav>
-    </header>
+        <Link href={'/'} className={`font-bold text-xl text-white`}>TECH-HUNT</Link>
+      </div>
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal px-1 text-white font-bold">
+          {menuList}
+        </ul>
+      </div>
+      <div className="navbar-end">
+        <a className="btn">Login</a>
+      </div>
+    </div>
   );
-}
+};
 
 export default Navbar;
