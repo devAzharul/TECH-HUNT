@@ -1,0 +1,6 @@
+.container{
+    background-image: url("../../Assests/Images/footerBackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
