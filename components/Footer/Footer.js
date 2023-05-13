@@ -1,31 +1,34 @@
 import back from '../../Assests/Images/footerBackground.png'
-import Image from 'next/image';
+import Link from 'next/link';
 const Footer = () => {
     return (
         <div>
-            <footer className="footer p-10 bg-black text-base-content">  
+            <footer className="footer p-10 bg-black">
                 <div>
-                    <span className="footer-title">Services</span>
+                    <span className="footer-title text-[#00FBF4]">Services</span>
                     <a className="link link-hover">Branding</a>
                     <a className="link link-hover">Design</a>
                     <a className="link link-hover">Marketing</a>
                     <a className="link link-hover">Advertisement</a>
                 </div>
                 <div>
-                    <span className="footer-title">Company</span>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <span className="footer-title text-[#00FBF4]">Quick Links</span>
+                    <Link href={"/"}>Home</Link>
+                    <Link href={"/service"}>Service</Link>
+                    <Link href={"/about"}>About Us</Link>
+                    <Link href={"/contact"}>Contact Us</Link>
+                    <Link href={"/blog"}>Blog</Link>
+                    <Link href={"/team"}>Our Team</Link>
                 </div>
                 <div>
-                    <span className="footer-title">Legal</span>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
-                    <a className="link link-hover">Cookie policy</a>
+                    <span className="footer-title text-[#00FBF4]">Solutions</span>
+                    <a className="link link-hover">Frontend Development</a>
+                    <a className="link link-hover">Backend Development</a>
+                    <a className="link link-hover">Full-Stack Development</a>
+                    <a className="link link-hover">MERN Stack Development</a>
                 </div>
                 <div>
-                    <span className="footer-title">Newsletter</span>
+                    <span className="footer-title text-[#00FBF4]">Newsletter</span>
                     <div className="form-control w-80">
                         <label className="label">
                             <span className="label-text">Enter your email address</span>
