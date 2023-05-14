@@ -8,7 +8,7 @@ const Navbar = () => {
         <li><Link href={"/about"}>About Us</Link></li>
         <li><Link href={"/contact"}>Contact Us</Link></li>
         <li><Link href={"/blog"}>Blog</Link></li>
-        <li><Link href={"/team"}>Team</Link></li>
+        <li><Link href={"/team"}>Our Team</Link></li>
     </>
     return (
         <div className="navbar bg-base-100 py-4">
