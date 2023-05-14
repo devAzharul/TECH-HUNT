@@ -30,9 +30,9 @@ const PaymentPlan = () => {
                         <h2 className="my-2 font-semibold text-xl text-white">{feature.name}</h2>
                         <h3 className="my-4 font-bold text-5xl primaryText">{feature.price}</h3>
                         <h3 className="my-8 font-semibold text-sm text-white">{feature.time}</h3>
-                        
+
                         {
-                            feature.services.map((ser,index) => <p key={index} className="my-2 font-semibold text-sm">{ser}</p>)
+                            feature.services.map((ser, index) => <p key={index} className="my-2 font-semibold text-sm text-gray-300">{ser}</p>)
                         }
 
                         <button className="primaryBtn">Choose Plan</button>
