@@ -6,7 +6,7 @@ import commentOne from '../../Assests/Images/comment-1.jpg'
 import styles from '@/styles/Comment/Comment.module.css'
 const Comment = () => {
     const settings = {
-        dots: true,
+        dots: false,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
