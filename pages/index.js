@@ -1,5 +1,6 @@
 import Blog from "@/components/Blog/Blog";
 import Comment from "@/components/Comment/Comment";
+import ITSolution from "@/components/ITSolution/ITSolution";
 import Layout from "@/components/Layout";
 import PaymentPlan from "@/components/PaymentPlan/PaymentPlan";
 import ServiceProvider from "@/components/Services/ServiceProvider";
@@ -11,6 +12,7 @@ export default function Home() {
     <Layout title="Home" >
       <ServiceProvider />
       <TrustedBrands />
+      <ITSolution/>
       <PaymentPlan />
       <Comment />
       <Blog />
