@@ -26,7 +26,7 @@ const TrustedBrands = () => {
 
 
     return (
-        <div className='flex justify-evenly'>
+        <div className='mt-32 mb-32 flex justify-evenly'>
             <div className='mt-10 w-6/12'>
                 <div className='mb-10'>
                     <Slider {...settings}>
