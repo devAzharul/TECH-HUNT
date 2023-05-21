@@ -21,7 +21,7 @@ const PaymentPlan = () => {
         },
     ]
     return (
-        <div className="my-16 px-8 bg-black py-16">
+        <div className="py-16 px-8 bg-black py-16">
             <h1 className={`primaryText text-sm font-semibold text-center`}>Pricing Plan</h1>
             <h2 className="font-bold text-4xl text-white my-4 text-center">Choose Your <span className="primaryText">Plan</span></h2>
             <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center">

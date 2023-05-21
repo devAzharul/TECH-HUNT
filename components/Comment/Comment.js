@@ -13,7 +13,7 @@ const Comment = () => {
         slidesToScroll: 1
     };
     return (
-        <div className={`my-20 mx-auto  p-4 bg-black`}>
+        <div className={`py-20 mx-auto  p-4 bg-black`}>
             <div className={`p-16 rounded shadow-2xl border border-[#028079] ${styles.container}`}>
                 <Slider {...settings}>
                     <div>

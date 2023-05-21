@@ -22,7 +22,7 @@ const Blog = () => {
         },
     ]
     return (
-        <div className="my-16 p-8 bg-black">
+        <div className="py-16 p-8 bg-black">
             <h1 className={`primaryText text-sm font-semibold text-center`}>Our Blog</h1>
             <h2 className="font-bold text-4xl text-white my-4 text-center">Latest <span className="primaryText">News & Articles</span></h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12'>
