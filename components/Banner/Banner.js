@@ -20,8 +20,8 @@ const Banner = () => {
                 <div>
                     <div className="relative">
                         <Image src={bannerOne} alt="Banner one" />
-                        <div className="absolute top-[30%] left-4 z-10">
-                            <h1 className="text-white font-bold mb-8" style={{ fontSize: "50px" }}>Creating a Better <br /> <span className="primaryText">IT Solutions.</span> </h1>
+                        <div className="absolute top-[20%] left-4 z-10">
+                            <h1 className="text-white font-bold mb-8" style={{ fontSize: "6rem" }}>Creating a Better <br /> <span className="primaryText">IT Solutions.</span> </h1>
                             <p className="text-gray-300">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
                             <button className="primaryBtn">Contact Us</button>
                         </div>
@@ -30,8 +30,8 @@ const Banner = () => {
                 <div>
                     <div className="relative">
                         <Image src={bannerTwo} alt="Banner two" />
-                        <div className="absolute top-[30%] left-4 z-10">
-                            <h1 className="text-white font-bold mb-8" style={{ fontSize: "50px" }}>Creating a Better <br /> <span className="primaryText">IT Solutions.</span> </h1>
+                        <div className="absolute top-[20%] left-4 z-10">
+                            <h1 className="text-white font-bold mb-8" style={{ fontSize: "6rem" }}>Creating a Better <br /> <span className="primaryText">IT Solutions.</span> </h1>
                             <p className="text-gray-300">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
                             <button className="primaryBtn">Contact Us</button>
                         </div>
