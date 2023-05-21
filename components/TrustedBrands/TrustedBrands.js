@@ -27,7 +27,7 @@ const TrustedBrands = () => {
 
     return (
         <div className='flex justify-between items-center flex-wrap md:flex-nowrap px-8  py-20 bg-black/70'>
-            <div className='w-1/2'>
+            <div className='w-full md:w-1/2'>
                 <div className='mb-10'>
                     <Slider {...settings}>
                         {logoup.map((logo, index) => (
