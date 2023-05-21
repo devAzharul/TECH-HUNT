@@ -28,8 +28,8 @@ const Comment = () => {
                         <div className='flex gap-10 mt-16 items-center'>
                             <Image src={commentOne} alt='Image of commenter' className='w-[100px] h-[100px] rounded-full' />
                             <div>
-                                <h2 className='primaryText font-bold mb-2 text-xl'>John Doe</h2>
-                                <h3 className='font-semibold text-white text-lg' >Founder of Tech-hunt</h3>
+                                <h2 className='primaryText font-bold mb-2 text-sm md:text-xl'>John Doe</h2>
+                                <h3 className='font-semibold text-white text-sm md:text-lg' >Founder of Tech-hunt</h3>
                             </div>
                         </div>
                     </div>
@@ -45,8 +45,8 @@ const Comment = () => {
                         <div className='flex gap-10 mt-16 items-center'>
                             <Image src={commentOne} alt='Image of commenter' className='w-[100px] h-[100px] rounded-full' />
                             <div>
-                                <h2 className='primaryText font-bold mb-2 text-xl'>John Doe</h2>
-                                <h3 className='font-semibold text-white text-lg' >Founder of Tech-hunt</h3>
+                                <h2 className='primaryText font-bold mb-2 text-sm md:text-xl'>John Doe</h2>
+                                <h3 className='font-semibold text-white text-sm md:text-lg' >Founder of Tech-hunt</h3>
                             </div>
                         </div>
                     </div>
@@ -62,8 +62,8 @@ const Comment = () => {
                         <div className='flex gap-10 mt-16 items-center'>
                             <Image src={commentOne} alt='Image of commenter' className='w-[100px] h-[100px] rounded-full' />
                             <div>
-                                <h2 className='primaryText font-bold mb-2 text-xl'>John Doe</h2>
-                                <h3 className='font-semibold text-white text-lg' >Founder of Tech-hunt</h3>
+                                <h2 className='primaryText font-bold mb-2 text-sm md:text-xl'>John Doe</h2>
+                                <h3 className='font-semibold text-white text-sm md:text-lg' >Founder of Tech-hunt</h3>
                             </div>
                         </div>
                     </div>

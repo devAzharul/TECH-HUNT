@@ -23,7 +23,7 @@ const PaymentPlan = () => {
     return (
         <div className="py-16 px-8 bg-black py-16">
             <h1 className={`primaryText text-sm font-semibold text-center`}>Pricing Plan</h1>
-            <h2 className="font-bold text-4xl text-white my-4 text-center">Choose Your <span className="primaryText">Plan</span></h2>
+            <h2 className="font-bold text-[2rem] md:text-[3rem] lg:text-[5rem] text-white my-4 text-center">Choose Your <span className="primaryText">Plan</span></h2>
             <div className="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 text-center">
                 {
                     features.map((feature, index) => <div key={index} className="boxShadow p-4 mt-12 shadow-xl rounded bg-[#0D1B1B]">
