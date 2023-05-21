@@ -31,7 +31,7 @@ const Blog = () => {
                         <Image src={blog.img} alt='Image of blog' className='hover:rotate-3 hover:scale-110 ease-in-out duration-300' />
                         <div className='p-5'>
                             <h3 className='text-white hover:text-[#00FBF4] my-4 text-2xl font-semibold ease-in-out duration-300'>{blog.name}</h3>
-                            <p className='my-2 text-lg text-base-400'>{blog.about}</p>
+                            <p className='my-2 text-white text-lg text-base-400'>{blog.about}</p>
                             <button className='primaryBtn'>Learn More</button>
                         </div>
                     </div>)

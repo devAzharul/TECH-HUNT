@@ -7,6 +7,7 @@ import Layout from "@/components/Layout";
 import PaymentPlan from "@/components/PaymentPlan/PaymentPlan";
 import ServiceProvider from "@/components/Services/ServiceProvider";
 import TrustedBrands from "@/components/TrustedBrands/TrustedBrands";
+import WhyChooseus from "@/components/WhyChooseus/WhyChooseus";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Banner />
       <ServiceProvider />
       <TrustedBrands />
+      <WhyChooseus />
       <ITSolution />
       <PaymentPlan />
       <Comment />
