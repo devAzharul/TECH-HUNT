@@ -27,13 +27,13 @@ body{
     border: 1px solid #00FBF4;
     padding: .7rem 1.5rem;
     margin: 1.5rem 0;
-    transition: all ease-in-out .4s;
+    transition: all ease-in-out .3s;
 }
 .primaryBtn:hover{
     background-color: white;
     color: black;
-    border: none;
-    transform: scale(.9);
+    border: 1px solid white;
+    /* transform: scale(.9); */
 }   
 
 .main-bg{

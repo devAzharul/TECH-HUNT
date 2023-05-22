@@ -28,7 +28,7 @@ const Footer = () => {
                     <a className="link link-hover">MERN Stack Development</a>
                 </div>
                 <div>
-                    <span className="footer-title text-red-600">Newsletter</span>
+                    <span className="footer-title primaryText">Newsletter</span>
                     <div className="form-control w-80">
                         <label className="label">
                             <span className="text-white">Enter your email address</span>

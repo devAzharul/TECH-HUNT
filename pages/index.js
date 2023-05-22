@@ -1,8 +1,11 @@
 import Banner from "@/components/Banner/Banner";
 import Blog from "@/components/Blog/Blog";
 import Comment from "@/components/Comment/Comment";
+import ContactUs from "@/components/ContactUs/ContactUs";
+import Counter from "@/components/Counter/Counter";
 import ITSolution from "@/components/ITSolution/ITSolution";
 import Layout from "@/components/Layout";
+import Mission from "@/components/Mission/Mission";
 import PaymentPlan from "@/components/PaymentPlan/PaymentPlan";
 import ServiceProvider from "@/components/Services/ServiceProvider";
 import TrustedBrands from "@/components/TrustedBrands/TrustedBrands";
@@ -17,6 +20,8 @@ export default function Home() {
       <TrustedBrands />
       <WhyChooseus />
       <ITSolution />
+      <Mission/>
+      <ContactUs/>
       <PaymentPlan />
       <Comment />
       <Blog />

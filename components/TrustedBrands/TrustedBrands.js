@@ -26,8 +26,8 @@ const TrustedBrands = () => {
 
 
     return (
-        <div className='mt-32 mb-32 flex justify-evenly'>
-            <div className='mt-10 w-6/12'>
+        <div className='flex justify-between items-center flex-wrap md:flex-nowrap px-8  py-20 bg-black/70'>
+            <div className='w-full md:w-1/2'>
                 <div className='mb-10'>
                     <Slider {...settings}>
                         {logoup.map((logo, index) => (
@@ -47,14 +47,14 @@ const TrustedBrands = () => {
                     </Slider>
                 </div>
             </div>
-            <div>
-                <div className='mb-8 text-white text-5xl font-bold'>
-                    <h2 className='mb-5'>
+            <div className=''>
+                <div className='mb-8 text-white font-bold'>
+                    <h2 className='mb-1 text-[2rem] md:text-[5remm]'>
                         Trusted By <span className='text-cyan-300'>1,790+</span>
                     </h2>
-                    <h2 className='mb-5'> Worlds Leading</h2>
+                    <h2 className='mb-1 text-[2rem] md:text-[5remm]'> Worlds Leading</h2>
                     <h2>
-                        <span className='text-cyan-300'> IT Companies.</span>
+                        <span className='text-cyan-300 text-[2rem] md:text-[5remm]'> IT Companies.</span>
                     </h2>
                 </div>
                 <div>
