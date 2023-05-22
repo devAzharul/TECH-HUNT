@@ -7,20 +7,17 @@ import { AiOutlineArrowRight } from 'react-icons/ai'
 const WhyChooseus = () => {
 
     return (
-        <div className='flex items-center'>
+        <div className='grid gap-10 grid-cols-1 lg:grid-cols-2 items-center'>
             <div className='pt-20 pb-20 mt-20 text-white bg-black'>
-                <h6 className='ml-5 text-lg text-cyan-300 font-bold'>Why Choose Us</h6>
-                <br />
-                <h3 className='ml-8 text-6xl font-extrabold'>Our Goal is</h3>
-                <br />
-                <h3 className='ml-8 text-cyan-300 text-6xl font-extrabold'>Giving the Best</h3>
-                <br />
-                <h3 className='ml-8 text-6xl font-extrabold'>For <span className='text-cyan-300'>IT Services.</span></h3>
+                <h6 className='ml-8 text-lg text-cyan-300 font-bold'>Why Choose Us</h6>
+                <h3 className='ml-8 text-[2rem] md:text-[3rem] lg:text-[5rem] font-extrabold'>Our Goal is</h3>
+                <h3 className='ml-8 text-cyan-300 text-[2rem] md:text-[3rem] lg:text-[5rem] font-extrabold'>Giving the Best</h3>
+                <h3 className='ml-8 text-[2rem] md:text-[3rem] lg:text-[5rem] font-extrabold'>For <span className='text-cyan-300'>IT Services.</span></h3>
                 <br />
                 <br />
-                <p>Aliquam in tincidunt ipsum. Quisque lobortis ultrices ex ut ullamcorper. Donec<br /> vitae lacus vel ligula hendrerit viverra non non orci. Quisque sed tincidunt<br /> sapien. Maecenas gravida at velit feugiat vulputate. Etiam quam orci,<br /> condimentum ut justo et, consequat ultrices diam.</p>
+                <p className='ml-8  text-white'>Aliquam in tincidunt ipsum. Quisque lobortis ultrices ex ut ullamcorper. Donec<br /> vitae lacus vel ligula hendrerit viverra non non orci. Quisque sed tincidunt<br /> sapien. Maecenas gravida at velit feugiat vulputate. Etiam quam orci,<br /> condimentum ut justo et, consequat ultrices diam.</p>
             </div>
-            <div className='flex justify-between'>
+            <div className='grid gap-5 grid-cols-1 md:grid-cols-2'>
                 <div className='ml-20 text-white'>
                     <Image alt='svg' width={200} src={svg1} />
                     <br />
