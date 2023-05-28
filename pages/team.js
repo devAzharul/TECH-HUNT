@@ -29,7 +29,7 @@ const Team = () => {
                                             rounded-xl shadow-lg max-w-full h-auto align-middle border-none"
                                         />
                                         <div className="pt-6 text-center">
-                                            <h1 className="text-white text-xl font-serif font-bold leading-normal mt-0 mb-2">Ajmain Mahtab Niloy</h1>
+                                            <h1 className="text-white text-xl font-serif font-bold leading-normal mt-0 mb-2">Ajmain Mahtab</h1>
                                             <div className="flex items-center justify-center">
                                             </div>
                                         </div>
