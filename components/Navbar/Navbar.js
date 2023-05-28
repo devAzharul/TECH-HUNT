@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
+import logo from '../../public/logo/thlogo1.png'
 import { FaBars } from 'react-icons/fa'
+import Image from 'next/image';
 const Navbar = () => {
     const menuList = <>
         <li><Link href={"/"}>Home</Link></li>
@@ -22,7 +24,7 @@ const Navbar = () => {
                         {menuList}
                     </ul>
                 </div>
-                <a className="normal-case text-xl text-white font-bold">TECH-HUNT</a>
+                <a className="normal-case text-xl text-white font-bold"><Image width={200} alt='tech-hunt' src={logo} /></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="text-white font-bold menu menu-horizontal px-1">

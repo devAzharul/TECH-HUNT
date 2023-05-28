@@ -40,13 +40,13 @@ const Team = () => {
                                         <Image
                                             height={100}
                                             width={300}
-                                            alt="Arifur Rahman"
+                                            alt="Arifur Rahaman"
                                             src={img1}
                                             className="m-auto rounded-xl shadow-lg max-w-full h-auto align-middle border-none"
                                             style={{ cursor: 'auto' }}
                                         />
                                         <div className="pt-6 text-center">
-                                            <h1 className="text-white text-xl font-serif font-bold leading-normal mt-0 mb-2">Arifur Rahman</h1>
+                                            <h1 className="text-white text-xl font-serif font-bold leading-normal mt-0 mb-2">Arifur Rahaman</h1>
                                             <div className="flex items-center justify-center">
                                             </div>
                                         </div>
