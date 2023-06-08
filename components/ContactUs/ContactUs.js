@@ -5,7 +5,7 @@ const ContactUs = () => {
         <div className={`bg-black p-4 py-16 ${styles.container}`}>
             <div className='bg-black/70 grid gap-5 grid-cols-1 lg:grid-cols-2'>
                 <div>
-                    <h1 className="text-white text-[2rem] md:text-[3rem] lg:text-[5rem] font-bold">We Are <span className="primaryText">Perfect Solutions</span> For <span className="primaryText">Your Business</span></h1>
+                    <h1 className="text-white text-[2rem] md:text-[3rem] font-bold">We Are <span className="primaryText">Perfect Solutions</span> For <span className="primaryText">Your Business</span></h1>
                     <p className="my-8 text-gray-400 font-semibold">Donec vitae lacus vel ligula hendrerit viverra non non orci. Quisque sed tincidunt sapien. Maecenas gravida at velit feugiat vulputate.</p>
                     <div>
                         <div className='flex items-center'>

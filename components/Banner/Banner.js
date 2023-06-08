@@ -21,8 +21,8 @@ const Banner = () => {
                     <div className="relative">
                         <Image src={bannerOne} alt="Banner one" />
                         <div className="absolute top-[30%] left-4 z-10">
-                            <h1 className="text-white font-bold mb-8 text-[2rem] md:text-[3rem] lg:text-[5rem]">Creating a Better <br /> <span className="primaryText">IT Solutions.</span> </h1>
-                            <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis faucibus ligula. Maecenas a purus massa. Ut elementum sem mauris, ut<br />venenatis tortor congue et. Ut et dolor massa.</p>
+                            <h1 className="text-white font-bold mb-8 text-[2rem] md:text-[3rem]">Expert Web Design & Development Services: <br/> <span className="primaryText">Enhance Your Online Presence Today</span></h1>
+                            <p className="text-gray-300">The Art challenges the technology, and technology inspires the art. - John Lasseter</p>
                             <button className="primaryBtn">Contact Us</button>
                         </div>
                     </div>
@@ -31,8 +31,8 @@ const Banner = () => {
                     <div className="relative">
                         <Image src={bannerTwo} alt="Banner two" />
                         <div className="absolute top-[30%] left-4 z-10">
-                            <h1 className="text-white font-bold mb-8 text-[2rem] md:text-[3rem] lg:text-[5rem]">Creating a Better <br /> <span className="primaryText">IT Solutions.</span> </h1>
-                            <p className="text-gray-300">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis faucibus ligula. Maecenas a purus massa. Ut elementum sem mauris, ut<br />venenatis tortor congue et. Ut et dolor massa.</p>
+                        <h1 className="text-white font-bold mb-8 text-[2rem] md:text-[3rem]">Expert Web Design & Development Services: <br/> <span className="primaryText">Enhance Your Online Presence Today</span></h1>
+                            <p className="text-gray-300">The Art challenges the technology, and technology inspires the art. - John Lasseter</p>
                             <button className="primaryBtn">Contact Us</button>
                         </div>
                     </div>

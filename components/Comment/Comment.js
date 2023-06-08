@@ -24,7 +24,7 @@ const Comment = () => {
                             <AiFillStar className='primaryText h-[30px] w-[30px]' />
                             <AiFillStar className='primaryText h-[30px] w-[30px]' />
                         </div>
-                        <h3 className={`my-8 text-xl text-white`}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h3>
+                        <h3 className={`my-8 text-xl text-white`}>At Tech-Hunt, we take immense pride in delivering exceptional web development solutions that empower businesses to thrive in the digital world. Our commitment to excellence and customer satisfaction is evident in the feedback we receive from our valued clients. We believe in transparency and showcasing the experiences of our clients to help potential customers make informed decisions. Here, we present our satisfied clients who have experienced our top-notch services firsthand.</h3>
                         <div className='flex gap-10 mt-16 items-center'>
                             <Image src={commentOne} alt='Image of commenter' className='w-[100px] h-[100px] rounded-full' />
                             <div>
@@ -41,7 +41,7 @@ const Comment = () => {
                             <AiFillStar className='primaryText h-[30px] w-[30px]' />
                             <AiFillStar className='primaryText h-[30px] w-[30px]' />
                         </div>
-                        <h3 className='my-8 text-xl text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h3>
+                        <h3 className='my-8 text-xl text-white'>At Tech-Hunt, we take immense pride in delivering exceptional web development solutions that empower businesses to thrive in the digital world. Our commitment to excellence and customer satisfaction is evident in the feedback we receive from our valued clients. We believe in transparency and showcasing the experiences of our clients to help potential customers make informed decisions. Here, we present our satisfied clients who have experienced our top-notch services firsthand.</h3>
                         <div className='flex gap-10 mt-16 items-center'>
                             <Image src={commentOne} alt='Image of commenter' className='w-[100px] h-[100px] rounded-full' />
                             <div>
@@ -58,7 +58,7 @@ const Comment = () => {
                             <AiFillStar className='primaryText h-[30px] w-[30px]' />
                             <AiFillStar className='primaryText h-[30px] w-[30px]' />
                         </div>
-                        <h3 className='my-8 text-xl text-white'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h3>
+                        <h3 className='my-8 text-xl text-white'>At Tech-Hunt, we take immense pride in delivering exceptional web development solutions that empower businesses to thrive in the digital world. Our commitment to excellence and customer satisfaction is evident in the feedback we receive from our valued clients. We believe in transparency and showcasing the experiences of our clients to help potential customers make informed decisions. Here, we present our satisfied clients who have experienced our top-notch services firsthand.</h3>
                         <div className='flex gap-10 mt-16 items-center'>
                             <Image src={commentOne} alt='Image of commenter' className='w-[100px] h-[100px] rounded-full' />
                             <div>
