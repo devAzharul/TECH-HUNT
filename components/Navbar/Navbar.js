@@ -6,7 +6,7 @@ import Image from 'next/image';
 const Navbar = () => {
     const menuList = <>
         <li><Link href={"/"}>Home</Link></li>
-        <li><Link href={"/service"}>Service</Link></li>
+        <li><Link href={"/service"}>Services</Link></li>
         <li><Link href={"/about"}>About Us</Link></li>
         <li><Link href={"/contact"}>Contact Us</Link></li>
         <li><Link href={"/blog"}>Blog</Link></li>
