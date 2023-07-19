@@ -10,6 +10,7 @@ import PaymentPlan from "@/components/PaymentPlan/PaymentPlan";
 import ServiceProvider from "@/components/Services/ServiceProvider";
 import TrustedBrands from "@/components/TrustedBrands/TrustedBrands";
 import WhyChooseus from "@/components/WhyChooseus/WhyChooseus";
+import FacebookMsg from "./facebookMsg";
 
 
 export default function Home() {
@@ -20,11 +21,12 @@ export default function Home() {
       <TrustedBrands />
       <WhyChooseus />
       <ITSolution />
-      <Mission/>
-      <ContactUs/>
+      <Mission />
+      <ContactUs />
       <PaymentPlan />
       <Comment />
       <Blog />
+      <FacebookMsg />
     </Layout>
   );
 }
