@@ -4,7 +4,7 @@ import React from "react";
 const AboutScreen = () => {
   return (
     <Layout title="About">
-      <div className="container mx-auto p-4">
+      <div className="text-white container mx-auto p-4 mb-10">
         <h1 className="text-4xl font-bold mb-4">
           Welcome to Tech-Hunt: Unraveling the Boundless Horizons of Technology
         </h1>
