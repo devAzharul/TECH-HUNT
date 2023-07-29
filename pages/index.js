@@ -2,7 +2,6 @@ import Banner from "@/components/Banner/Banner";
 import Blog from "@/components/Blog/Blog";
 import Comment from "@/components/Comment/Comment";
 import ContactUs from "@/components/ContactUs/ContactUs";
-import Counter from "@/components/Counter/Counter";
 import ITSolution from "@/components/ITSolution/ITSolution";
 import Layout from "@/components/Layout";
 import Mission from "@/components/Mission/Mission";
