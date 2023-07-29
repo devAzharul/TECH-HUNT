@@ -6,17 +6,17 @@ import ITSolution from "@/components/ITSolution/ITSolution";
 import Layout from "@/components/Layout";
 import Mission from "@/components/Mission/Mission";
 import PaymentPlan from "@/components/PaymentPlan/PaymentPlan";
-import ServiceProvider from "@/components/Services/ServiceProvider";
 import TrustedBrands from "@/components/TrustedBrands/TrustedBrands";
 import WhyChooseus from "@/components/WhyChooseus/WhyChooseus";
 import FacebookMsg from "./facebookMsg";
+import HomeServices from "@/components/Services/HomeServices";
 
 
 export default function Home() {
   return (
     <Layout title="Home" >
       <Banner />
-      <ServiceProvider />
+      <HomeServices />
       <TrustedBrands />
       <WhyChooseus />
       <ITSolution />
