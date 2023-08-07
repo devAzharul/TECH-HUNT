@@ -1,9 +1,15 @@
 import Layout from "@/components/Layout";
+import Head from "next/head";
 import React from "react";
 
 const AboutScreen = () => {
   return (
-    <Layout title="About">
+    <Layout>
+      <Head>
+        <title>About Us - Tech-Hunt</title>
+        <meta name="description" content="Welcome to Tech-Hunt, a trailblazing web development company that combines technical prowess with artistic flair. Discover our journey, core values, and extensive range of web development services. Join us in exploring the possibilities of technology together." />
+      </Head>
+
       <div className="text-white container mx-auto p-4 mb-10">
         <h1 className="text-4xl font-bold mb-4">
           Welcome to Tech-Hunt: Unraveling the Boundless Horizons of Technology
