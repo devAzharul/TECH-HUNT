@@ -10,7 +10,7 @@ const AboutScreen = () => {
         <meta name="description" content="Welcome to Tech-Hunt, a trailblazing web development company that combines technical prowess with artistic flair. Discover our journey, core values, and extensive range of web development services. Join us in exploring the possibilities of technology together." />
       </Head>
 
-      <div className="text-white container mx-auto p-4 mb-10">
+      <div className="text-white container mx-auto p-4 mb-10 bg-black/[.8]">
         <h1 className="text-4xl font-bold mb-4">
           Welcome to Tech-Hunt: Unraveling the Boundless Horizons of Technology
         </h1>
