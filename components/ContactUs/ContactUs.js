@@ -44,8 +44,11 @@ const ContactUs = () => {
             <span className="primaryText">Your Business</span>
           </h1>
           <p className="my-8 text-gray-400 font-semibold">
-            Donec vitae lacus vel ligula hendrerit viverra non non orci. Quisque
-            sed tincidunt sapien. Maecenas gravida at velit feugiat vulputate.
+             Our dedication to excellence is evident in our
+            top-notch IT services. Understanding customers' unique requirements
+            is our forte. Delivered by seasoned experts, aimed at tackling your
+            most crucial operations. We specialize in refining processes to
+            achieve unparalleled excellence.
           </p>
           <div>
             <div className="flex items-center">
