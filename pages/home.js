@@ -25,13 +25,13 @@ export default function Home() {
       <Head>
         <title>Web Development Agency in Bangladesh</title>
         <meta name="google-site-verification" content="vJvgidBjHt-0Qt0si6SIUK25IRDHVNgLtdAHmhrq3Ys" />
-        <meta name="description" content="Welcome to Tech-Hunt, your one-stop destination for web applications. Discover innovative solutions, expert services, and top-notch products tailored to meet your needs. Our mission is to provide you with the best experience and exceed your expectations." />
+        <meta name="description" content="TECH HUNT: Best web development agency in Bangladesh" />
         <meta name="keywords" content="Tech-Hunt, Web Applications, Website Design, E-commerce Development, Web Hosting, Search Engine Optimization, Web Development, Front-end Development, Back-end Development, Full-stack Development, Responsive Web Design, User Experience (UX) Design, Mobile App Development, E-commerce Solutions, Content Management Systems, WordPress Development, Website Maintenance, SEO Services, UI/UX Design" />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Welcome to Tech-Hunt - Your One-Stop Destination for Web Applications" />
         <meta property="og:description" content="Discover innovative solutions, expert services, and top-notch products tailored to meet your needs. Our mission is to provide you with the best experience and exceed your expectations." />
         <meta property="og:image" content="/path/to/og-image.jpg" /> {/* Add the URL of your Open Graph image */}
-        <meta property="og:url" content="https://www.tech-hunt.com/" /> {/* Add the URL of your homepage */}
+        <meta property="og:url" content="https://www.tech-hunt.com/web-development-agency" /> {/* Add the URL of your homepage */}
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Tech-Hunt" />
         <meta name="twitter:title" content="Welcome to Tech-Hunt - Your One-Stop Destination for Web Applications" />
