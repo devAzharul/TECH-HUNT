@@ -31,7 +31,7 @@ export default function Home() {
         <meta property="og:title" content="Welcome to Tech-Hunt - Your One-Stop Destination for Web Applications" />
         <meta property="og:description" content="Discover innovative solutions, expert services, and top-notch products tailored to meet your needs. Our mission is to provide you with the best experience and exceed your expectations." />
         <meta property="og:image" content="/path/to/og-image.jpg" /> {/* Add the URL of your Open Graph image */}
-        <meta property="og:url" content="https://www.tech-hunt.com/web-development-agency" /> {/* Add the URL of your homepage */}
+        <meta property="og:url" content="https://www.tech-hunt.org" /> {/* Add the URL of your homepage */}
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content="Tech-Hunt" />
         <meta name="twitter:title" content="Welcome to Tech-Hunt - Your One-Stop Destination for Web Applications" />
