@@ -22,11 +22,8 @@ const TeamMember = ({ name, position, imageSrc }) => (
 
 const Team = () => {
     const teamMembers = [
-        { name: 'Ajmain Mahtab', position: 'Management & Marketing', imageSrc: '/image team/Ajmain-Mahtab-Niloy.jpg' },
         { name: 'Arifur Rahaman', position: 'Frontend Developer', imageSrc: '/image team/Arifur-bhai.jpg' },
         { name: 'Azharul Islam', position: 'Frontend Developer', imageSrc: '/image team/Azharul-Islam.jpg' },
-        { name: 'Rony Chowdhury', position: 'Frontend Developer', imageSrc: '/image team/Rony-Chowdhury.jpg' },
-        { name: 'Ruman Islam', position: 'Backend Developer', imageSrc: '/image team/Ruman-Islam.jpg' },
         { name: 'Sultan Mahmud', position: 'Frontend Developer', imageSrc: '/image team/Sultan-Mahmud.jpg' },
     ];
 
@@ -38,7 +35,7 @@ const Team = () => {
                 {/* Add more meta tags as needed */}
             </Head>
             <section className="p-4 md:p-8">
-                <h1 className="text-3xl font-bold mb-6 text-center text-white">"Bringing Your Ideas to Life: <span className='primaryText'>Our Team</span>" </h1>
+                <h1 className="text-3xl font-bold mb-6 text-center text-white">Bringing Your Ideas to Life: <span className='primaryText'>Our Team</span> </h1>
                 <div className="flex flex-wrap justify-center bg-black/[.8] border border-hidden rounded-3xl p-12">
                     {teamMembers.map((member, index) => (
                         <TeamMember

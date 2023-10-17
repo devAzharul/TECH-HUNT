@@ -6,9 +6,9 @@ const Mission = () => {
   return (
     <div className={`flex ${styles.container} flex-col md:flex-row `}>
       <div className="bg-black/40 md:pt-28">
-        <h2 className="font-bold text-[2rem] md:text-[3rem] text-white my-4 text-center">"Our <span className="primaryText">mission</span> is to
+        <h2 className="font-bold text-[2rem] md:text-[3rem] text-white my-4 text-center">Our <span className="primaryText">mission</span> is to
           <span className="primaryText"> protect</span> your{" "}
-          <span className="primaryText">businesses</span> and help them thrive"
+          <span className="primaryText">businesses</span> and help them thrive
         </h2>
         <div className="mr-16 grid place-content-end">
           <button className="primaryBtn ">Discover More</button>
