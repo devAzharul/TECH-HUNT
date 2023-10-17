@@ -38,8 +38,8 @@ const Team = () => {
                 {/* Add more meta tags as needed */}
             </Head>
             <section className="p-4 md:p-8">
-                <h1 className="text-3xl font-bold mb-6 text-center text-white">This is our team</h1>
-                <div className="flex flex-wrap justify-center">
+                <h1 className="text-3xl font-bold mb-6 text-center text-white">"Bringing Your Ideas to Life: <span className='primaryText'>Our Team</span>" </h1>
+                <div className="flex flex-wrap justify-center bg-black/[.8] border border-hidden rounded-3xl p-12">
                     {teamMembers.map((member, index) => (
                         <TeamMember
                             key={index}
