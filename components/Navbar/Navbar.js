@@ -24,7 +24,7 @@ const Navbar = () => {
                         {menuList}
                     </ul>
                 </div>
-                <a className="normal-case text-xl text-white font-bold"><Image width={100} height={100} alt='tech-hunt' src={logo} /></a>
+                <a className="normal-case text-xl text-white font-bold"><Image width={200} height={100} alt='tech-hunt' src={logo} /></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="text-white font-bold menu menu-horizontal px-1">
