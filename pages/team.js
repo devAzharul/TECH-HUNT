@@ -22,9 +22,9 @@ const TeamMember = ({ name, position, imageSrc }) => (
 
 const Team = () => {
     const teamMembers = [
-        { name: 'Arifur Rahaman', position: 'Frontend Developer', imageSrc: '/image team/Arifur-bhai.jpg' },
-        { name: 'Azharul Islam', position: 'Frontend Developer', imageSrc: '/image team/Azharul-Islam.jpg' },
-        { name: 'Sultan Mahmud', position: 'Frontend Developer', imageSrc: '/image team/Sultan-Mahmud.jpg' },
+        { name: 'Arifur Rahaman', position: 'Project Manager & Frontend Developer', imageSrc: '/image team/Arifur-bhai.jpg' },
+        { name: 'Azharul Islam', position: 'Digital Marketer & Frontend Developer', imageSrc: '/image team/Azharul-Islam.jpg' },
+        { name: 'Sultan Mahmud', position: 'Full Stack Developer', imageSrc: '/image team/Sultan-Mahmud.jpg' },
     ];
 
     return (
