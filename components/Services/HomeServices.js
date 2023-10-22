@@ -1,9 +1,13 @@
-import React from 'react';
 import Image from 'next/image';
-import services from '../serviceJson/services';
+import React from 'react';
+import homeServices from '../serviceJson/services';
 import webdevelopment from '../../public/service png/2010990.png'
-import { AiOutlineArrowRight } from 'react-icons/ai'
-const ServiceProvider = () => {
+import { AiOutlineArrowRight } from 'react-icons/ai';
+import Link from 'next/link';
+
+const HomeServices = () => {
+
+    const services = homeServices.slice(0, 4);
 
     return (
         <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 p-8 my-16'>
@@ -15,8 +19,11 @@ const ServiceProvider = () => {
                     <AiOutlineArrowRight size={32} className='text-white mt-12' />
                 </div>)
             }
+            <Link href={'/service'}>
+                <button className="primaryBtn">View all</button>
+            </Link>
         </div>
     );
 };
 
-export default ServiceProvider;
+export default HomeServices;

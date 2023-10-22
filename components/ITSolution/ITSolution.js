@@ -8,7 +8,7 @@ import { AiOutlinePlusCircle } from 'react-icons/ai'
 const ITSolution = () => {
     return (
         <div className='py-36 px-8 bg-black'>
-            <h1 className={`primaryText text-sm font-semibold text-center`}>Case Studies</h1>
+            <h1 className={`primaryText text-4xl font-semibold text-center`}>Case Studies</h1>
             <h2 className="font-bold text-[2rem] md:text-[3rem] text-white my-4 text-center">Latest <span className="primaryText">Showcase</span> & <span className='primaryText'>Solutions</span> to <span className='primaryText'>IT Solutions</span></h2>
             <div className='p-2 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-12'>
                 <div className={`${styles.container}`}>

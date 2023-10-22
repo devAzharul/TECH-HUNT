@@ -1,12 +1,12 @@
 import Link from 'next/link';
 import React from 'react';
-import logo from '../../public/logo/thlogo1.png'
+import logo from '../../public/logo/thlogo4.png'
 import { FaBars } from 'react-icons/fa'
 import Image from 'next/image';
 const Navbar = () => {
     const menuList = <>
         <li><Link href={"/"}>Home</Link></li>
-        <li><Link href={"/service"}>Service</Link></li>
+        <li><Link href={"/service"}>Services</Link></li>
         <li><Link href={"/about"}>About Us</Link></li>
         <li><Link href={"/contact"}>Contact Us</Link></li>
         <li><Link href={"/blog"}>Blog</Link></li>
@@ -23,7 +23,7 @@ const Navbar = () => {
                         {menuList}
                     </ul>
                 </div>
-                <a className="normal-case text-xl text-white font-bold"><Image width={200} alt='tech-hunt' src={logo} /></a>
+                <a className="normal-case text-xl text-white font-bold"><Image width={130}  alt='tech-hunt' src={logo} /></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="text-white font-bold menu menu-horizontal px-1">
