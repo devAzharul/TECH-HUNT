@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import logo from '../../public/logo/thlogo1.png'
+import logo from '../../public/logo/thlogo4.png'
 import { FaBars } from 'react-icons/fa'
 import Image from 'next/image';
 const Navbar = () => {
