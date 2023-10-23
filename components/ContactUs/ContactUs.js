@@ -5,8 +5,8 @@ import { useEffect } from "react";
 import { toast } from "react-toastify";
 
 const ContactUs = () => {
-  const [state, handleSubmit] = useForm("xzbowgvq");
-
+  const [state, handleSubmit] = useForm("xrgwjppg");
+  
   useEffect(() => {
     if (state.succeeded) {
       toast.success("Thanks for email us. We will contact to you soon!", {
@@ -113,7 +113,7 @@ const ContactUs = () => {
           {state?.errors?.length > 0 && (
             <p className="text-red-600">You cannot submit empty form </p>
           )}
-          <button type="submit" className="primaryBtn">
+          <button type="submit" className="primaryBtn" disabled={state.submitting}>
             Submit Request
           </button>
         </form>

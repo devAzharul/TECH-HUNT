@@ -1,5 +1,7 @@
 import back from '../../Assests/Images/footerBackground.png'
 import Link from 'next/link';
+import { AiOutlineHome, AiOutlineMail } from 'react-icons/ai'
+import { MdCall } from 'react-icons/md'
 const Footer = () => {
     return (
         <div>
@@ -29,15 +31,26 @@ const Footer = () => {
                     <a className="link link-hover">MERN Stack Development</a>
                 </div>
                 <div>
-                    <span className="footer-title primaryText">Newsletter</span>
+                    <span className="footer-title primaryText">Address</span>
                     <div className="form-control w-80">
-                        <label className="label">
-                            <span className="text-white">Enter your email address</span>
-                        </label>
-                        <div className="relative">
-                            <input type="text" placeholder="username@site.com" className="input input-bordered w-full pr-16" />
+                        <div className='flex gap-x-2 mb-2'>
+                            <AiOutlineHome size={24} />
+                            <p>
+                                1042/1175, Baitul Jannat Mosque Lane, Kadamtoly, Chittagong
+                            </p>
                         </div>
-                        <button className="primaryBtn">Subscribe</button>
+                        <div className='flex gap-x-2 mb-2'>
+                            <AiOutlineMail size={24} />
+                            <a href="mailto:techhunt.org@gmail.com" className='text-green-500'>techhunt.org@gmail.com</a>
+                        </div>
+                        <div className='flex gap-x-2'>
+                            <MdCall size={24} />
+                            <p>
+                                <a href="tel:+8801581192171" className='text-green-500'>+8801581192171 </a> |
+                                <a href="tel:+8801671698464" className='text-green-500'> +8801671698464 </a> |
+                                <a href="tel:+8801515605339" className='text-green-500'> +8801515605339 </a>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </footer>
